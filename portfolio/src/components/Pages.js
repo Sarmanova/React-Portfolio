@@ -5,10 +5,13 @@ import Resume from './Resume';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
-
+import Home from './Home'
 function Pages() {
-    const [currentPage, setCurrentPage] = useState('About');
+    const [currentPage, setCurrentPage] = useState('Home');
     const renderPage = () => {
+        if (currentPage === 'Home') {
+            return <Home />;
+        }
         if (currentPage === 'About') {
             return <About />;
         }

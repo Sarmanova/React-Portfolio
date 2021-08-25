@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 .App {
   text-align: center;
 }
@@ -39,8 +40,7 @@
   }
 }
 .navbar {
-   /* justify-content: flex-end; */
-  font-weight: bold;
+   font-weight: bold;
   font-family: 'Dancing Script', cursive;
   
 }
@@ -51,15 +51,7 @@
 }
 
 
-.title{
-  display:flex;
-  font-weight: bold;
-   color: #E0FFFF;
-  text-align: end;
-   display: block;
-   margin-left: 20px;
-  font-family: 'Playball', cursive;
-}
+
 .parag{
   text-align: center;
  color: #E0FFFF;
@@ -68,12 +60,27 @@
 .logoName{
 font-family: 'Dancing Script', cursive;
 }
-
-.homepage-bgimage {
+/* About page */
+.about {
     background-color: #5F9EA0;
     background-size: cover;
     height: 100vh;
 }
+#avatar{
+  width: 450px;
+  margin-left: 130px;
+  border-radius: 70%
+}
+.title{
+ 
+  font-weight: bold;
+   color: #E0FFFF;
+  text-align: center;
+   /* display: block; */
+  margin-left: 350px;
+  font-family: 'Playball', cursive;
+}
+/* Footer */
 .icon{
  width:50px;
  margin-left:auto;
@@ -92,8 +99,17 @@ font-family: 'Dancing Script', cursive;
  color: #E0FFFF;
 }
 
-#avatar{
-  width: 150px;
-  margin-left: 130px;
-  border-radius: 70%
+
+/* Home Page */
+.h1tab{
+ font-family: 'Dancing Script', cursive;
+ text-align: center;
+ margin: auto ;
+  display: flex;
+ font-weight: bold;
+ font-size: 50px; 
+ color: #2F4F4F;
+  padding: 150px 0 50px;
+  margin-left: 350px;
+    height: 10em;
 }
