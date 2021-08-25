@@ -1,9 +1,19 @@
-import './App.css';
+import React from 'react';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Pages from "./Pages";
 
-const App = () => <Pages />;
 
+function App() {
+  return (
+      <div>
+ 
+      <Navbar />
+      <Footer />
+  
+    </div> 
+  );
+}
 
 export default App;
