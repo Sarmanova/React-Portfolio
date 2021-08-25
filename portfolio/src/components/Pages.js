@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
-import About from './components/About';
-import Resume from './components/Resume';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Navbar from './Navbar';
+import About from './About';
+import Resume from './Resume';
+import Projects from './Projects';
+import Contact from './Contact';
+import Footer from './Footer';
 
-
-export default function Pages() {
-
-    const [currentPage, setCurrentPage] = useState('Home');
+function Pages() {
+    const [currentPage, setCurrentPage] = useState('About');
     const renderPage = () => {
         if (currentPage === 'About') {
             return <About />;
@@ -28,6 +27,9 @@ export default function Pages() {
         <div>
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <Footer/>
         </div>
     )
 }
+
+export default Pages;

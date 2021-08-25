@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 .App {
   text-align: center;
 }
@@ -46,31 +46,33 @@
 }
 
 .navbar_toolbar{
-  background:violet
+  background:	#2F4F4F;
+   
 }
 
 
 .title{
-  text-align: center;
+  display:flex;
   font-weight: bold;
-  color: white;
-  text-align: center;
+   color: #E0FFFF;
+  text-align: end;
+   display: block;
+   margin-left: 20px;
+  font-family: 'Playball', cursive;
 }
 .parag{
   text-align: center;
-  color: white;
+ color: #E0FFFF;
+  font-family: 'Playball', cursive;
 }
 .logoName{
 font-family: 'Dancing Script', cursive;
 }
 
 .homepage-bgimage {
-  background: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg");
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+    background-color: #5F9EA0;
+    background-size: cover;
+    height: 100vh;
 }
 .icon{
  width:50px;
@@ -80,15 +82,18 @@ font-family: 'Dancing Script', cursive;
    
 }
 .footerName{
-    background:violet;
-    /* display: table-cell;
-    vertical-align: middle;
-    text-align: center; */
-     display: flex; 
+  background:	#2F4F4F;
+  display: flex; 
   align-items: center; 
   justify-content: center; 
 }
 
-.navbars{
-  color: blue;
+.navbar{
+ color: #E0FFFF;
+}
+
+#avatar{
+  width: 150px;
+  margin-left: 130px;
+  border-radius: 70%
 }
