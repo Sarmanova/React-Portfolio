@@ -22,7 +22,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-/* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -54,13 +53,13 @@
 
 .logoName{
 font-family: 'Dancing Script', cursive;
+ margin-left: 120px;
 }
 /* About page */
 .about {
-    /* background-color: #5F9EA0; */
     background-size: cover;
     height: 100vh;
-    background: linear-gradient(-45deg, #eeca52, #6f34cf, #791cb8, #23d5ab);
+    background: linear-gradient(-45deg, #52e4ee, #0c3f47, #2fb1c2, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
@@ -87,8 +86,7 @@ font-family: 'Dancing Script', cursive;
   font-weight: bold;
    color: #E0FFFF;
   text-align: center;
-   /* display: block; */
-  margin-left: 350px;
+   margin-left: 350px;
   font-family: 'Playball', cursive;
 }
 .parag{
@@ -142,9 +140,7 @@ font-family: 'Dancing Script', cursive;
   color: #2F4F4F;
   
   }
-/* .column:hover{
 
-} */
 /* Clear floats after image containers */
 .row::after {
   content: "";
@@ -157,21 +153,29 @@ font-family: 'Dancing Script', cursive;
   
 }
 
-/* .img:hover{
 
-} */
 /* Resume page */
 .resumeTitle{
   font-family: 'Dancing Script', cursive;
-   color: #2F4F4F;
+   color: #d4dfdf;
    font-weight: bold;
    text-align: center;
    font-size: 56px;
+    margin-left: 190px
+  
 }
-
+.resumeTitle1{
+  font-family: 'Dancing Script', cursive;
+   color: #d4dfdf;
+   font-weight: bold;
+   text-align: center;
+   font-size: 56px;
+  
+}
 .icon1{
   width: 150px;
   display: block;
   margin: auto;
-  margin-left: 520px;
+  margin-left: 670px;
+    margin-top: 30px;
 }
