@@ -2,9 +2,10 @@ import React from "react";
 const styles = {
   card:{
     float: 'right',
-    marginTop: "60px",
-    marginRight:'250px',
-    fontSize:'35px'
+    marginTop: "26px",
+    marginRight:'230px',
+    fontSize: '33px',
+  
    
   }
 }

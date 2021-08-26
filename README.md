@@ -2,6 +2,10 @@
 
 Web app portfolio used React to showcase some of my projects.
 
+## Link
+
+Deployed: https://react-portfolio-saya.herokuapp.com/
+
 ## User Story
 
 ```md

@@ -141,7 +141,6 @@ font-family: 'Dancing Script', cursive;
   
   }
 
-/* Clear floats after image containers */
 .row::after {
   content: "";
   clear: both;
@@ -161,7 +160,7 @@ font-family: 'Dancing Script', cursive;
    font-weight: bold;
    text-align: center;
    font-size: 56px;
-    margin-left: 190px
+    margin-left: 280px
   
 }
 .resumeTitle1{
@@ -176,6 +175,32 @@ font-family: 'Dancing Script', cursive;
   width: 150px;
   display: block;
   margin: auto;
-  margin-left: 790px;
+  margin-left: 650px;
     margin-top: 30px;
+}
+/* Contact Page */
+#contact-form{
+  width:850px;
+  display: block;
+  margin: auto;
+   margin-left: 70px;
+   
+}
+.top-title{
+  font-family: 'Dancing Script', cursive;
+   color: #d4dfdf;
+   text-align: center;
+     margin-left: 150px;
+     font-weight: bold;
+     font-size: 55px;
+}
+.formName{
+  font-family: 'Dancing Script', cursive;
+   color: #d4dfdf;
+   font-weight: bold;
+   font-size: 25px;
+}
+.formSubmit{
+  font-family: 'Dancing Script', cursive;
+   font-size: 25px;
 }
