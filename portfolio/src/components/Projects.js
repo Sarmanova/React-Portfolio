@@ -21,9 +21,9 @@ const Projects = () => {
                         </a>  </div>
                 </div>
                 <div className="column">
-                    <h1 className="imageTitle"> Weather Tracker</h1>
-                    <a href="  https://workout-tracker1993.herokuapp.com/?id=611b083c4939140016086c83" target="_blank">
-                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/015/971/original/Capture.PNG22.PNG?1629935146" alt="Weather tracker" width="700" /></a>
+                    <h1 className="imageTitle"> <strong>Name:</strong> Weather Tracker</h1>
+                    <a href="https://workout-tracker1993.herokuapp.com/?id=611b083c4939140016086c83" target="_blank">
+                 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/015/971/original/Capture.PNG22.PNG?1629935146" alt="Weather tracker" width="700" /></a>
                 </div>
             </div>
             

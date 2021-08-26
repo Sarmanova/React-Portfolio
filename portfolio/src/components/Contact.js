@@ -3,41 +3,45 @@ import { validateEmail } from './utils/helper';
 
 const Contact = () => {
 
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
-    const [errorMessage, setErrorMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
 
-    const { name, email, message } = formState;
+  const { name, email, message } = formState;
 
-    function handleChange(e) {
-      if (e.target.name === 'email') {
-        const isValid = validateEmail(e.target.value);
+  function handleChange(e) {
+    e.preventDefault();
+    if (e.target.name === 'email') {
+      const isValid = validateEmail(e.target.value);
 
-        if (!isValid) {
-          setErrorMessage('please enter a valid email');
-        } else {
-          setErrorMessage('');
-        }
-
+      if (!isValid) {
+        setErrorMessage('please enter a valid email');
       } else {
-        if (!e.target.value.length) {
-          setErrorMessage(`${e.target.name} is required.`);
-        } else {
-          setErrorMessage('');
-        }
+        setErrorMessage('');
       }
 
-      if (!errorMessage) {
-        setFormState({ ...formState, [e.target.name]: e.target.value })
+    } else {
+      if (!e.target.value.length) {
+        setErrorMessage(`${e.target.name} is required.`);
+      } else {
+        setErrorMessage('');
       }
     }
 
-    function handleSubmit(e) {
-      e.preventDefault();
+    if (!errorMessage) {
+      setFormState({ ...formState, [e.target.name]: e.target.value })
     }
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    alert(`Thank you ${name}`);
+    setFormState('');
+  } 
+
     return (
       <section className="container">
-        <h2 data-testid='h1tag' className="top-title">Contact Form</h2>
+        <h2 data-testid='h1tag' className="top-title">Contact Me</h2>
         <hr></hr>
         <form class="justify-content-center" id="contact-form">
           <div class="mt-5" >
@@ -64,6 +68,6 @@ const Contact = () => {
         </form>
       </section>
     );
-  }
+}
 
   export default Contact;

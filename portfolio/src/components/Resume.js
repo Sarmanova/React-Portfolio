@@ -1,28 +1,11 @@
 import React from 'react'
-const styles = {
-    header: {
-        // width: "100%",
-        // margin: "0 auto",
-        // textAlign: "center",
-        // padding: "20px",
-    },
-    p: {
-        // width: "60%",
-        // margin: "0 auto",
-        // textAlign: "center",
-        // padding: "10px",
-    },
-};
+
  const Resume = () => {
     return (
         <div className="container">
-            <h2 style={styles.header}>My Resume</h2>
-             <a
-                href=""
-                className="link"
-            >
-                Download Resume
-            </a>
+            <h2 className='resumeTitle'>My Resume</h2>
+            <a href="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/015/987/original/Zhansaya_Sarmanova_Resume_Updated_.jpg?1629941548"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/015/982/original/651-6517838_icon-resume-icons-for-personal-resume-sketch-freebie.png?1629941207" alt="Resume" className="icon1" target="_blank" /></a>
+        
         </div>
     )
 }

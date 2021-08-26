@@ -142,7 +142,9 @@ font-family: 'Dancing Script', cursive;
   color: #2F4F4F;
   
   }
+/* .column:hover{
 
+} */
 /* Clear floats after image containers */
 .row::after {
   content: "";
@@ -151,10 +153,25 @@ font-family: 'Dancing Script', cursive;
 }
 .imageTitle{
 font-family: 'Dancing Script', cursive;
- text-align: center; 
+
   
 }
 
 /* .img:hover{
 
 } */
+/* Resume page */
+.resumeTitle{
+  font-family: 'Dancing Script', cursive;
+   color: #2F4F4F;
+   font-weight: bold;
+   text-align: center;
+   font-size: 56px;
+}
+
+.icon1{
+  width: 150px;
+  display: block;
+  margin: auto;
+  margin-left: 520px;
+}
