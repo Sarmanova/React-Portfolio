@@ -18,7 +18,14 @@ function Navbar({ currentPage, handlePageChange }) {
     return (
         <div className="navbar_toolbar" >
             <h1 className="logoName" style={{ display: 'inline-block' , color:' #E0FFFF' }} > Zhansaya Sarmanova </h1>
-                 <ul className="nav nav-tabs navbar " style={styles.navtabs} >
+            <ul className="nav nav-tabs navbar " style={styles.navtabs} >
+                <li className="nav-item" >
+                    < a href="#home"
+                        onClick={() => handlePageChange('Home')}
+                        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} style={{ color: '#E0FFFF' }}
+                    >
+                       Home </a>
+                </li>
              <li className="nav-item" >
             < a href="#about"
       onClick={() => handlePageChange('About')}

@@ -35,8 +35,8 @@ const Contact = () => {
 
   function handleSubmit(e) {
     e.preventDefault();
-    alert(`Thank you ${name}`);
-    setFormState('');
+        
+   
   } 
 
     return (

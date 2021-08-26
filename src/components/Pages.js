@@ -20,7 +20,7 @@ function Pages() {
         }
         if (currentPage === 'Resume') {
             return <Resume />;
-        }
+        }else
         return <Contact />;
     };
 
