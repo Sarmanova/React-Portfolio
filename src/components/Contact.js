@@ -40,7 +40,8 @@ const Contact = () => {
   } 
 
     return (
-      <section className="container">
+      <section className="about">
+      
         <h2 data-testid='h1tag' className="top-title">Contact Me</h2>
         <hr></hr>
         <form class="justify-content-center" id="contact-form">
@@ -65,7 +66,8 @@ const Contact = () => {
           <div class="mt-5 mb-5" >
             <button data-testid='button' class="btn btn-outline-dark " type="submit" onSubmit={handleSubmit}>Submit</button>
           </div>
-        </form>
+          </form>
+        
       </section>
     );
 }
