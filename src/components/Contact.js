@@ -34,8 +34,9 @@ const Contact = () => {
   }
 
   function handleSubmit(e) {
+    alert(`Thank you ${name}`);
     e.preventDefault();
-        
+  
    
   } 
 
